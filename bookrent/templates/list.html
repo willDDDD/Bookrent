@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+{% for bk in bks %}
+
+<html>
+    <body>
+        <h1>Name: {{bk.name}}. Quantity: {{bk.quantity}}. Description: {{bk.description}}</h1> 
+    </body>
+</html>
+
+{% endfor %}
+
+{% endblock %}
