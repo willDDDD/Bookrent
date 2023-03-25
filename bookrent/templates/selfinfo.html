@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% if user.is_authenticated %}
+<h1>Hello {{user.first_name}}!!!!!</h1>
+{% for bk in bks %}
+
+<html>
+    <body>
+        <h1>Borrowed Bookname: {{bk.bookname}}.</h1> 
+    </body>
+</html>
+
+{% endfor %}
+
+{% else %}
+<h1>Need to login</h1>
+{% endif %}
+
+<li>><a href="/accounts/logout">Logout</a></li>
+
+{% endblock %}
