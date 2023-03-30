@@ -29,3 +29,7 @@ def result(request):
             students.objects.create(netid = request.POST["netid"],bookname = request.POST["bookname"])
 
     return render(request,"result.html",{"res":res})
+
+
+def home(request):
+    return render(request, 'home.html')

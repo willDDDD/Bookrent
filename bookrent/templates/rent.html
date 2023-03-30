@@ -2,6 +2,10 @@
 
 {% block content %}
 
+{% if user.is_authenticated %}
+<h1>Hello {{user.first_name}}!!!!!</h1>
+
+
 
 <form action = "result" method="post">
     {%csrf_token%}
@@ -10,5 +14,10 @@
     Enter the book name you want: <input type="text" name = "bookname"><br>
     <input type="submit">
 </form>
+
+{% else %}
+
+<h1> Need to login !<h1>
+{% endif %}
 
 {% endblock %}
