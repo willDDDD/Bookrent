@@ -81,7 +81,8 @@ DATABASES = {
         'NAME': "bookrent",
         'USER':'postgres',
         'PASSWORD':'12345678',
-        'HOST':'localhost'
+        'HOST':'localhost',
+        'PORT': '5432',
     }
 }
 
