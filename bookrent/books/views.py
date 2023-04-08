@@ -1,7 +1,11 @@
-from django.shortcuts import render
+
 from django.http import HttpResponse
 from .models import books
 from .models import students
+from django.shortcuts import render,redirect
+from django.contrib.auth.models import User, auth
+from django.contrib import messages
+from django.apps import apps
 # Create your views here.
 def main(request):
     bks = books.objects.all()
@@ -33,3 +37,18 @@ def result(request):
 
 def home(request):
     return render(request, 'home.html')
+
+
+def returnbooks(request):
+    if request.method == 'POST':
+        netid = request.POST['netid']
+        bookname = request.POST['bookname']
+        check = students.objects.filter(netid = netid, bookname = bookname).exists()
+        if check:
+            students.objects.filter(netid = netid, bookname = bookname).delete()
+            return redirect("/books/home/")
+        else:
+            messages.info(request,"no such record")
+            return redirect("/books/returnbooks/")
+    else:
+        return render(request,"returnbooks.html")
