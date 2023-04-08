@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<h1>Hello {{user.first_name}}!!!!!</h1>
+
+
+
+<form action = "" method="post">
+    {%csrf_token%}
+
+    Enter your netid: <input type="text" name = "netid"><br>
+    Enter the book name you want to return: <input type="text" name = "bookname"><br>
+    <input type="submit">
+</form>
+
+<div>
+    {% for message in messages %}
+    <h3> {{message}}  </h3>
+    {% endfor %}
+</div>
+
+{% else %}
+
+<h1> Need to login !<h1>
+{% endif %}
+
+{% endblock %}

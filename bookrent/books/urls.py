@@ -6,4 +6,5 @@ urlpatterns = [
     path('rent/',views.rent),
     path('rent/result',views.result),
     path('home/',views.home),
+    path('returnbooks/',views.returnbooks),
 ]
