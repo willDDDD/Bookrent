@@ -3,27 +3,37 @@
 {% block content %}
 
 {% if user.is_authenticated %}
-<h1>Hello {{user.first_name}}!!!!!</h1>
-
-
-
 <form action = "" method="post">
     {%csrf_token%}
 
-    Enter your netid: <input type="text" name = "netid"><br>
-    Enter the book name you want to return: <input type="text" name = "bookname"><br>
-    <input type="submit">
+    <center><font face="Fifth Grader"> <span style="font-size: 40px;color:BLACK;">Enter your netid:</span> </font face></center>
+    <center><input type="text" input class="inp" name = "netid"></center>
+    <center><font face="Fifth Grader"> <span style="font-size: 40px;color:BLACK;">Enter the book name you want to return:</span></font face></center>
+    <center><input type="text" input class="inp" name = "bookname"></center>
+    <center><button class="btn">Submit</button></center>
 </form>
 
 <div>
     {% for message in messages %}
-    <h3> {{message}}  </h3>
+        <center><font face="Fifth Grader"><span style="font-size: 80px;color:black;"> {{message}}</span> </font> </center>
     {% endfor %}
 </div>
 
 {% else %}
 
-<h1> Need to login !<h1>
+<a href="/accounts/login">
+    <center><button class="btn">
+    Go To Login
+    </button>
+    </center>
+</a>
+
+<a href="/accounts/register">
+    <center><button class="btn">
+    Create An Account
+    </button>
+    </center>
+</a>
 {% endif %}
 
 {% endblock %}

@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+{% extends 'base.html' %}
+{% block content %}
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -8,19 +8,18 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
+
 <body>
     <form action="" method="post">
         {% csrf_token %}
-        <input type="text" name="username" placeholder="Netid"><br>
-        <input type="password" name="password" placeholder="password"><br>
-        <input type="Submit">
+        <center><input class = "inp" name="username" placeholder="Netid"></center>
+        <center><input class = "inp" input type="password" name="password" placeholder="password"></center>
+        <center><button class="btn">Log in</button></center>
     </form>
-
-
     <div>
-            {% for message in messages %}
-            <h3> {{message}}  </h3>
-            {% endfor %}
+        {% for message in messages %}
+            <center><font face="Fifth Grader"><span style="font-size: 80px;color:black;"> {{message}}</span> </font> </center>
+        {% endfor %}
     </div>
 </body>
-</html>
+{% endblock %}

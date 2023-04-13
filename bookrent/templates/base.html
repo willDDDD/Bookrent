@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html lang = "en">
+<style>
+    .btn {
+    width:200px;height:60px;background:white ;cursor: pointer;
+    border-radius: 30px;font-size: 30px; font-weight: bold;
+    color: black;text-decoration: none; transition-duration: 0.4s;
+    margin-bottom: 10px; font-family: "Fifth Grader";
+    }
+
+    .btn:hover {
+        background-color: black;
+        color: white;
+    }
+
+    .inp {
+        width:200px;height:60px;background:white ;cursor: pointer;
+    border-radius: 30px;font-size: 30px; font-weight: bold;
+    color: black;text-decoration: none; transition-duration: 0.4s;
+    margin-bottom: 10px; font-family: "Fifth Grader";
+    }
+</style>
 
 <head>
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Rent Books</title>
+    <center><font face="Fifth Grader"> <span style="font-size: 160px;color:white;">Rent Books</span> </font face></center>
+
+<style>
+    body{
+        background-image: url("https://web-static.wrike.com/cdn-cgi/image/width=1760,format=auto,q=80/blog/content/uploads/2014/07/iStock-587536358.jpg?av=95d3c7b72e8ec61ed2a871230b0aae5f");
+    }
+    
+</style>
 </head>
 
-<body bgcolor="cyan">
-
+<body>
+    
     {% block content %}
     {% endblock %}
+
 </body>

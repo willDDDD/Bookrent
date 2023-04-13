@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+{% extends 'base.html' %}
+{% block content %}
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -12,20 +12,20 @@
     <form action="" method="post">
         {% csrf_token %}
 
-        <input type="text" name="first_name" placeholder="First Name"><br>
-        <input type="text" name="last_name" placeholder="Last Name"><br>
-        <input type="text" name="username" placeholder="Netid"><br>
-        <input type="email" name="email" placeholder="email"><br>
-        <input type="password" name="password1" placeholder="Password"><br>
-        <input type="password" name="password2" placeholder="Confirm Password"><br>
-        <input type="Submit">
+        <center><input class="inp" name="first_name" placeholder="First Name"></center>
+        <center><input class="inp" name="last_name" placeholder="Last Name"></center>
+        <center><input class="inp" name="username" placeholder="Netid"></center>
+        <center><input class="inp" name="email" placeholder="email"></center>
+        <center><input type="password" input class="inp" name="password1" placeholder="Password"></center>
+        <center><input type="password" input class="inp" name="password2" placeholder="Confirm Password"></center>
+        <center><button class="btn">Sign Up</button></center>
 
     </form>
     <div>
         {% for message in messages %}
-        <h3> {{message}}  </h3>
+            <center><font face="Fifth Grader"><span style="font-size: 80px;color:black;"> {{message}}</span> </font> </center>
         {% endfor %}
     </div>
 
 </body>
-</html>
+{% endblock %}

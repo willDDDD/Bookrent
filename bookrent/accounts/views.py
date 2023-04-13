@@ -47,7 +47,7 @@ def login(request):
 
 def logout(request):
     auth.logout(request)
-    return redirect("/books/list")
+    return redirect("/books/home")
 
 def selfinfo(request):
     if request.user.is_authenticated:
@@ -56,3 +56,11 @@ def selfinfo(request):
         return render(request, 'selfinfo.html',{'bks':bks})
     else:
         return render(request,"selfinfo.html")
+
+def records(request):
+    if request.user.is_authenticated:
+        students = apps.get_model('books', 'students')
+        bks = students.objects.filter(netid = request.user.username)
+        return render(request, 'records.html', {'bks':bks})
+    else:
+        return render(request,"records.html")

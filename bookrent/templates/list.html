@@ -2,15 +2,32 @@
 
 {% block content %}
 
-
+{% if user.is_authenticated %}
 {% for bk in bks %}
 
 <html>
     <body>
-        <h1>Name: {{bk.name}}. Quantity: {{bk.quantity}}. Description: {{bk.description}}</h1> 
+        <font face="Fifth Grader"> <span style="display: block; font-size: 60px;color:Black;">
+            Name: {{bk.name}}. Quantity: {{bk.quantity}}. Description: {{bk.description}}
+        </span> </font face>
     </body>
 </html>
-
 {% endfor %}
 
+{% else %}
+
+<a href="/accounts/login">
+    <center><button class="btn">
+    Go To Login
+    </button>
+    </center>
+</a>
+
+<a href="/accounts/register">
+    <center><button class="btn">
+    Create An Account
+    </button>
+    </center>
+</a>
+{% endif %}
 {% endblock %}

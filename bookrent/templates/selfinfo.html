@@ -2,21 +2,57 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-<h1>Hello {{user.first_name}}!!!!!</h1>
-{% for bk in bks %}
+<center><font face="Fifth Grader"> <span style="font-size: 100px;color:Black; ">Hello {{user.first_name}}</span> </font face></center>
 
-<html>
-    <body>
-        <h1>Borrowed Bookname: {{bk.bookname}}.</h1> 
-    </body>
-</html>
-
-{% endfor %}
+    <a href="/accounts/records">
+        <center><button class="btn">
+            Borrowed Records
+        </button>
+        </center>
+    </a>
+    
+    <a href="/books/rent">
+        <center><button class="btn">
+            Borrow Books
+        </button>
+        </center>
+    </a>
+    
+    <a href="/books/returnbooks">
+        <center><button class="btn">
+            Return Books
+        </button>
+        </center>
+    </a>
+    
+    <a href="/books/list">
+        <center><button class="btn">
+        Available Book List
+        </button>
+        </center>
+    </a>
+    
+    <a href="/accounts/logout">
+        <center><button class="btn">
+        Logout
+        </button>
+        </center>
+    </a>
 
 {% else %}
-<h1>Need to login</h1>
-{% endif %}
+<a href="/accounts/login">
+    <center><button class="btn">
+    Go To Login
+    </button>
+    </center>
+</a>
 
-<li>><a href="/accounts/logout">Logout</a></li>
+<a href="/accounts/register">
+    <center><button class="btn">
+    Create An Account
+    </button>
+    </center>
+</a>
+{% endif %}
 
 {% endblock %}

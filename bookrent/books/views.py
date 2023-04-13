@@ -43,9 +43,12 @@ def returnbooks(request):
     if request.method == 'POST':
         netid = request.POST['netid']
         bookname = request.POST['bookname']
+        bk = books.objects.get(name = bookname)
         check = students.objects.filter(netid = netid, bookname = bookname).exists()
         if check:
             students.objects.filter(netid = netid, bookname = bookname).delete()
+            bk.quantity += 1
+            bk.save()
             return redirect("/books/home/")
         else:
             messages.info(request,"no such record")
