@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+{% for bk in bks %}
+<center><font face="Fifth Grader"><span style="font-size: 80px;color:black;"> {{bk.bookname}}</span> </font> </center>
+{% endfor %} 
+{% else %}
+
+<a href="/accounts/login">
+    <center><button class="btn">
+    Go To Login
+    </button>
+    </center>
+</a>
+
+<a href="/accounts/register">
+    <center><button class="btn">
+    Create An Account
+    </button>
+    </center>
+</a>
+{% endif %}
+{% endblock %}
