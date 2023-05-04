@@ -60,5 +60,5 @@ Problem 1:
 When we uploaded the background image candidate locally and tries to apply the change, it failed with the reason of incorrect path. The solution is that we inspected the webpage where the image was located on and copies the image's url into our code which worked successfully. The solution is much easier as long as the image is still up on the internet.
 
 Problem 2:
-None of us used Django framwork before so it is something completely new and the problem is to find useful information that works for us in
+None of us used Django framework before so it is something completely new and the problem is to find useful information that works for us in
 a short period of time. We ended up finding a tutorial on Youtube with decent length, a lot of contents and no course selling. Watching videos sometimes works much better than reading a lot of documents since it provides someone knowledge to teach you.
