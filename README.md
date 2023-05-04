@@ -21,7 +21,7 @@ any returning.
 
 ### Django Template(frontend): 
 1. Role: Display Frontend content to clients
-2. Interaction: Display information fetched from backend/database, and send clients' requests/changes to backend/database
+2. Interaction: Display HTML pages incooperated with information fetched from backend/database, and send clients' requests/changes to backend/database
 3. Languages/libraries: HTML, CSS
 4. Who worked on it: Chen Yang, Zelong Liang, Haoran Wang
 
