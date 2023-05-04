@@ -45,10 +45,14 @@ When we uploaded the background image candidate locally and tries to apply the c
 5. In your browser, go to [http://localhost/:3000](http//localhost:3000) to see the website locally.
 
 ## Group members and their roles
-Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding <br>
-<br>
-Roles: <br>
-   Front-end: Chen Yang, Zelong Liang, Haoran Wang <br>
+Members: 
+   
+   Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding
+
+Roles:
+
+   Front-end: Chen Yang, Zelong Liang, Haoran Wang
+   
    Back-end: Xiuhao Ding 
 
 
