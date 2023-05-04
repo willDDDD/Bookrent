@@ -19,7 +19,7 @@ Technical Architecture:
    2. Back-end: Mysql, python
    3. Platform: Django
    
-
+![graph](./TA.png)
 
 
 ## Installation and Usage
