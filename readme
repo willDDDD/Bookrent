@@ -8,10 +8,9 @@ Features:
    1. User Login in 
    2. Book rental
    3. Designed home page
-   4. search engine
-   5. User account
-   6. Book information
-   7. Administers account
+   4. User account
+   5. Book information
+   6. Administers account
 
 Technical Architecture:
    1. Front-end: html
