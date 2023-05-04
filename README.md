@@ -5,23 +5,24 @@
 
 Our project is an alternative to existing software. On the internet, there are multiple products or web services for booking renting services, but our web service is specifically for students in UIUC. To be more specific, students of UIUC may have difficulties ordering and buying books at the beginning of the semester due to a large number of orders, or need books for studying and reference in the middle of the semester. So, we decide to create an alternative to existing book renting web service to address this problem, and our goal is to create a web page for book rental service, with various features embedded in our website.
 
-Features:
-   1. User Login in 
-   2. Book rental
-   3. Designed home page
-   4. User account
-   5. Book information
-   6. Administers account
+Functionality
+1. Users could have their personal account on our website, and use Netid to login.
+2. Staff users could post new available textbook information on the website.
+3. Users could borrow textbooks on the website with the limit of 2 textbooks in total before
+any returning.
+4. Users could check the number of books they already borrowed.
+5. Users could look up book information on the website.
+
+
+
+ 
+## Technical Architecture
+![graph](./TA.png)
 
 Technical Architecture:
    1. Front-end: html
    2. Back-end: Mysql, python
    3. Platform: Django
- 
-## Technical Architecture
-![graph](./TA.png)
-
-
 
 
 ## Installation instructions
