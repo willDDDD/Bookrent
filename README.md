@@ -26,7 +26,6 @@ When we uploaded the background image candidate locally and tries to apply the c
 
 
 ## Installation and Usage
-
 1. Clone the repo:
    
     $ git clone https://github.com/CS222-UIUC/course-project-team-51.git
@@ -44,7 +43,6 @@ When we uploaded the background image candidate locally and tries to apply the c
     $ python manage.py runserver
     
 5. In your browser, go to [http://localhost/:3000](http//localhost:3000) to see the website locally.
-
 
 ## Group members and their roles
 Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding <br>
