@@ -18,7 +18,11 @@ Technical Architecture:
    1. Front-end: html
    2. Back-end: Mysql, python
    3. Platform: Django
+   
 ![graph](./TA.png)
+
+
+
 ## Installation and Usage
 
 1. Clone the repo:
