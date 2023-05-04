@@ -3,23 +3,32 @@
 {% block content %}
 
 {% if user.is_authenticated %}
-{% for bk in bks %}
-<center><font face="Fifth Grader"><span style="font-size: 80px;color:black;"> {{bk.bookname}}</span> </font> </center>
-{% endfor %} 
+    <table style="font-size: 40px; border-collapse: collapse; width: 100%; background-color: white; max-width: 500px; border: 1px solid black;">
+        <tbody>
+            {% for bk in bks %}
+            <tr>
+                <td style="text-align: left; padding: 20px; font-family: Fifth Grader; color: black; border: 1px solid black;">
+                    {{ bk.bookname }}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/accounts/selfinfo" style="position: absolute; bottom: 10px; right: 10px;">
+        <button class="btn">Account selfinfo</button>
+    </a>
 {% else %}
+    <a href="/accounts/login">
+        <center><button class="btn">
+        Go To Login
+        </button></center>
+    </a>
 
-<a href="/accounts/login">
-    <center><button class="btn">
-    Go To Login
-    </button>
-    </center>
-</a>
-
-<a href="/accounts/register">
-    <center><button class="btn">
-    Create An Account
-    </button>
-    </center>
-</a>
+    <a href="/accounts/register">
+        <center><button class="btn">
+        Create An Account
+        </button></center>
+    </a>
 {% endif %}
+
 {% endblock %}
