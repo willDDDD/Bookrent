@@ -2,7 +2,9 @@ CS222 projects--Book Rental Web Service(Textbook Rent System)
 
 Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding
 
-Students may have difficulties ordering and buying books at the beginning of the semester due to a large number of orders, or need books for studying and reference in the middle of the semester. Our goal is to create a web page for book rental service, with various features embed in our website.
+Introduction of presentation:
+
+Our project is an alternative to existing software. On the internet, there are multiple products or web services for booking renting services, but our web service is specifically for students in UIUC. To be more specific, students of UIUC may have difficulties ordering and buying books at the beginning of the semester due to a large number of orders, or need books for studying and reference in the middle of the semester. So, we decide to create an alternative to existing book renting web service to address this problem, and our goal is to create a web page for book rental service, with various features embedded in our website.
 
 Features:
    1. User Login in 
