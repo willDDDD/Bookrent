@@ -1,6 +1,5 @@
 CS222 projects--Book Rental Web Service(Textbook Rent System)
 
-Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding
 
 Introduction of presentation:
 
@@ -47,9 +46,12 @@ When we uploaded the background image candidate locally and tries to apply the c
 5. In your browser, go to [http://localhost/:3000](http//localhost:3000) to see the website locally.
 
 
-Roles: 
-   Front-end: Chen Yang, Zelong Liang, Haoran Wang
-   Back-end: Xiuhao Ding
+## Group members and their roles
+Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding <br>
+<br>
+Roles: <br>
+Front-end: Chen Yang, Zelong Liang, Haoran Wang <br>
+Back-end: Xiuhao Ding 
 
 
 
