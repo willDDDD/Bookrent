@@ -25,9 +25,9 @@ Problem 1:
 When we uploaded the background image candidate locally and tries to apply the change, it failed with the reason of incorrect path. The solution is that we instead inspected the page where the image was located on and copies the image's url into our code which worked successfully. the solution is much easier as long as the image is still up on the internet.
 
 
-## Installation and Usage
+## Installation instructions
 1. Clone the repo:
-   
+
     $ git clone https://github.com/CS222-UIUC/course-project-team-51.git
    
 2. Change directory into the web-app folder:
@@ -48,8 +48,8 @@ When we uploaded the background image candidate locally and tries to apply the c
 Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding <br>
 <br>
 Roles: <br>
-Front-end: Chen Yang, Zelong Liang, Haoran Wang <br>
-Back-end: Xiuhao Ding 
+   Front-end: Chen Yang, Zelong Liang, Haoran Wang <br>
+   Back-end: Xiuhao Ding 
 
 
 
