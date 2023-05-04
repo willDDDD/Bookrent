@@ -1,5 +1,6 @@
-# CS222 projects--Book Rental Web Service(Textbook Rent System)
+CS222 projects--Book Rental Web Service(Textbook Rent System)
 
+Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding
 
 Introduction of presentation:
 
@@ -20,6 +21,9 @@ Technical Architecture:
  
 ###
 ![graph](./TA.png)
+
+Problem 1:
+When we uploaded the background image candidate locally and tries to apply the change, it failed with the reason of incorrect path. The solution is that we instead inspected the page where the image was located on and copies the image's url into our code which worked successfully. the solution is much easier as long as the image is still up on the internet.
 
 
 ## Installation and Usage
@@ -42,11 +46,10 @@ Technical Architecture:
     
 5. In your browser, go to [http://localhost/:3000](http//localhost:3000) to see the website locally.
 
-## Group members and their roles
-Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding <br>
-Roles: <br>
-Front-end: Chen Yang, Zelong Liang, Haoran Wang <br>
-Back-end: Xiuhao Ding
+
+Roles: 
+   Front-end: Chen Yang, Zelong Liang, Haoran Wang
+   Back-end: Xiuhao Ding
 
 
 
