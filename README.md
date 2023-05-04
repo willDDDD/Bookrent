@@ -57,7 +57,7 @@ Roles:
 
 ## Development(Problems)
 Problem 1:
-When we uploaded the background image candidate locally and tries to apply the change, it failed with the reason of incorrect path. The solution is that we instead inspected the page where the image was located on and copies the image's url into our code which worked successfully. the solution is much easier as long as the image is still up on the internet.
+When we uploaded the background image candidate locally and tries to apply the change, it failed with the reason of incorrect path. The solution is that we inspected the webpage where the image was located on and copies the image's url into our code which worked successfully. The solution is much easier as long as the image is still up on the internet.
 
 Problem 2:
 None of us used Django framwork before so it is something completely new and the problem is to find useful information that works for us in
