@@ -2,9 +2,22 @@ CS222 projects--Book Renting Webpage
 
 Members: Haoran Wang, Chen Yang,  Zelong Liang, Xiuhao Ding
 
-Students may have difficulties ordering and buying books at the beginning of the semester due to a large number of orders, or need books for studying and reference in the middle of the semester. Our goal is to create a web page for book rental service.
+Students may have difficulties ordering and buying books at the beginning of the semester due to a large number of orders, or need books for studying and reference in the middle of the semester. Our goal is to create a web page for book rental service, with various features embed in our website.
 
+Features:
+   1. User Login in 
+   2. Book rental
+   3. Designed home page
+   4. search engine
+   5. User account
+   6. Book information
+   7. Administers account
 
+Technical Architecture:
+   1. Front-end: html
+   2. Back-end: Mysql, python
+   3. Platform: Django
+   
 ## Installation and Usage
 
 1. Clone the repo:
@@ -24,3 +37,6 @@ Students may have difficulties ordering and buying books at the beginning of the
     $ python manage.py runserver
     
 5. In your browser, go to [http://localhost/:3000](http//localhost:3000) to see the website locally.
+
+
+
