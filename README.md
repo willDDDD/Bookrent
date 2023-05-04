@@ -26,7 +26,7 @@ any returning.
 4. Who worked on it: Chen Yang, Zelong Liang, Haoran Wang
 
 ### Django Framework(backend): 
-1. Role: The Three Django Apps are the main parts of our framework. The Accounts App is responsible for user's registration, login/logout and fetch personal information like borrowed records. The Books is responsible for the function of borrowing and returning books as well as listing out available books. The Bookrent App is responsible for database connnections and settings.
+1. Role: The Three Django Apps are the main parts of our framework. The Accounts App is responsible for user's registration, login/logout and fetch personal information like borrowed records. The Books is responsible for the function of borrowing and returning books as well as listing out available books. The Bookrent App is responsible for database connections and settings.
 2. Interaction: Fetch from backend and send it to frontend. Receive from frontend and update the database.
 3. Languages/libraries: Python, Django
 4. Who worked on it: Xiuhao Ding, Zelong Liang
