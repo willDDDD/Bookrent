@@ -45,7 +45,7 @@ Technical Architecture:
 
 
 Roles: 
-   Front-end: Chen Yang, Zelong Liang, Haoran Wang
+   Front-end: Chen Yang, Zelong Liang, Haoran Wang <br>
    Back-end: Xiuhao Ding
 
 
