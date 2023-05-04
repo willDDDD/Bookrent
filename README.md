@@ -32,7 +32,7 @@ any returning.
 4. Who worked on it: Xiuhao Ding, Zelong Liang
 
 ### Database: 
-1. Role: Store users' and text books' information
+1. Role: Store users' and administrator's account information and text books' information
 2. Interaction: Send information to Django Framework/Frontend, and process on the Create/Read/Update/Delete requests
 3. Languages/libraries: Postgre, SQL
 4. Who worked on it: Xiuhao Ding, Zelong Liang
