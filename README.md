@@ -19,10 +19,13 @@ any returning.
 ## Technical Architecture
 ![graph](./TA.png)
 
-Technical Architecture:
-   1. Front-end: html
-   2. Back-end: Mysql, python
-   3. Platform: Django
+### Django Template: 
+1. Role:
+2. Interaction:
+3. Languages/libraries:
+4. Who worked on it
+    Back-end: Mysql, python
+    Platform: Django
 
 
 ## Installation instructions
@@ -53,7 +56,7 @@ Roles:
 
    Front-end: Chen Yang, Zelong Liang, Haoran Wang
    
-   Back-end: Xiuhao Ding 
+   Back-end: Xiuhao Ding, Zelong Liang
 
 ## Development(Problems)
 Problem 1:
