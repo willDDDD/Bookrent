@@ -1,4 +1,4 @@
-# CS222 projects--Book Rental Web Service(Textbook Rent System)
+# Book Rental Web Service(Textbook Rent System)
 
 
 ## Introduction
